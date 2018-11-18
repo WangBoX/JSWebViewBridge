@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <div>
+    <button type="button" onclick="closeWebview">点击关闭webview</button>
+    <p>结果为<span id="close"></span></p>
+  </div>
+  <div>
+      <button type="button" onclick="getQrcode">点击获取qrcod</button>
+      <p>结果为<span id="getQrcode"></span></p>
+    </div>
+  <script>
+
+    function closeWebview () {
+      window.bridge.closeWebView({}, {
+            success(data) {
+              let close = document.getElementById('closeWebview')
+              close.innerHTML = data
+            },
+            cancel () {
+
+            },
+            fail () {
+
+            }
+        })
+    }
+
+    function getQrcode () {
+      window.bridge.getQrCode({}, {
+            success(data) {
+              let qrcode = document.getElementById('getQrcode')
+              qrcode.innerHTML = data
+            },
+            cancel () {
+
+            },
+            fail () {
+
+            }
+        })
+    }
+  </script>
+</body>
+</html>

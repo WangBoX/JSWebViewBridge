@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B9FA294FEA6E0BE3A2081907D07896C /* OCTLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 64E2DE219AC3778655BE81889B02B26E /* OCTLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		165BD2B53DEFF2EFCE4505083E9C8CC9 /* OCTWebViewPluginInjector.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D8EAB9B11790A7820D82B631C36676 /* OCTWebViewPluginInjector.m */; };
+		1A03C225AD88A9FB64A4970C191C9CDF /* OCTConsoleLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E69180A5B09779A30661B01FE18353 /* OCTConsoleLogger.m */; };
+		1C7147CF1B2DE7CB5BCA94CCEC4E98C1 /* OCTBlockPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 009D7409CDA105FE82C8C99AD820F5A5 /* OCTBlockPlugin.m */; };
+		1DEDC641C9F6B882E277AAC02CA91C0D /* OCTWebViewBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EACDED7C4080466B70B692DE670EB47 /* OCTWebViewBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F1667338A6B5E068DAD3EC9CC82F49F /* OCTLogPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 01192B43CAA04D60A585C0137F01856F /* OCTLogPlugin.m */; };
+		23BE2E64DFA5E175793A23934B72ED73 /* OCTWebViewBridge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71151ABA06854BB17A6D661A4D651083 /* OCTWebViewBridge-dummy.m */; };
+		32F2CF7D5FD708A9197B9A43FAC9AA45 /* message.js in Resources */ = {isa = PBXBuildFile; fileRef = B9BAFCAB7D317DD78DE3E1A5F57BF503 /* message.js */; };
+		46D835EBC88D4CAA4DACCBB007D5A3C1 /* Pods-JSWebViewBridge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA94755D5AB2AA7DAEF6323216C91D8B /* Pods-JSWebViewBridge-dummy.m */; };
+		57621F9CD7E775E278AFA537B0180BAA /* OCTConsoleDestination.h in Headers */ = {isa = PBXBuildFile; fileRef = 3481FB01E6D06458A6CF951801ABD00E /* OCTConsoleDestination.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B1886E9967B3762FA699F0834638028 /* OCTFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F4F2AADCF06AA76D04D50D3C1AE8B82 /* OCTFileLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6381257A81BC2A793F8FCE62B61E6672 /* OCTBaseDestination.h in Headers */ = {isa = PBXBuildFile; fileRef = 155E1C17E64AE497C46EF374D41DB366 /* OCTBaseDestination.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		644CC333606F21DD760642D97D58EB2F /* WKWebView+NightMode.h in Headers */ = {isa = PBXBuildFile; fileRef = F04201CFF293D45AF1CD85D982F9846C /* WKWebView+NightMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		670C3E2AA23DEAD51C4A06F7717496BF /* block_plugin_template.js in Resources */ = {isa = PBXBuildFile; fileRef = 2E9998DF27B7AD837DEFE6AA4D514BB5 /* block_plugin_template.js */; };
+		6940FD8CCC0102CE0A0FE8D8022AC58B /* WKWebView+NightMode.m in Sources */ = {isa = PBXBuildFile; fileRef = D44F93F8034A7D1B0FA0EB4EAF8A268B /* WKWebView+NightMode.m */; };
+		6989BFA034B8193ABFA320DC1D448CA8 /* OCTFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADC398C5DD956567CC7FAFD2C901AB9 /* OCTFileLogger.m */; };
+		6D1AE9BC362DAB78EDABB3B1B3F3DFC1 /* night.css in Resources */ = {isa = PBXBuildFile; fileRef = F6C90DF379FD6478691667CB6C45C659 /* night.css */; };
+		75E54A3364DA5563FA94EA0B7E1D396B /* OCTLogLevel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C4B103127BEDDDF560FF3A149160443 /* OCTLogLevel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		812BE68040F31A336D5C62965EA265CB /* css_injector.js in Resources */ = {isa = PBXBuildFile; fileRef = 5C3263D3A568602E6A4496FF3CD715FD /* css_injector.js */; };
+		A081889CD48329CCF020C4CA03CE85B0 /* OCTConsoleLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 687E832480E506CDBD9B026661FB85F8 /* OCTConsoleLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1E945095DF7C822107D6749D1EFCFF6 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E578D5A6E237D1513B18072DF5B9B2A /* WebKit.framework */; };
+		A53594CC24A34C8439019BBE3E0A4994 /* OCTWebViewBridge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18CA773234221AD26E59FAECA5D697F3 /* OCTWebViewBridge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9B41C69B6CCEC0274CE1DB33C0572C8 /* OCTLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6A85A4253B729F397578DFF3FCC479 /* OCTLogger.m */; };
+		B2CAA3CF2B55FFE6FDA93FFD86727236 /* OCTWebViewPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 3837DF82B01995BB16D56605D97C5914 /* OCTWebViewPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE08AD261370DA7104EC415005160A42 /* Pods-JSWebViewBridge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A3A6B8DD53E8A5253EB5844E904099C /* Pods-JSWebViewBridge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C07F2A0CAFDC34201A80CB65335D97BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A6815CE5273DA8E60F65EFF612642BA /* Foundation.framework */; };
+		C90DAE9191A109EA2D7ED6039A709E0F /* OCTWebViewPluginInjector.h in Headers */ = {isa = PBXBuildFile; fileRef = C8E85C5C266A4D8AA0556360EBBD54B2 /* OCTWebViewPluginInjector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D19A21210012E56462684E03422D545F /* night.js in Resources */ = {isa = PBXBuildFile; fileRef = 75F40F19A9AE312CD88F700630630AF4 /* night.js */; };
+		DD5BBD98D2253693252857C0E54C0AF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A6815CE5273DA8E60F65EFF612642BA /* Foundation.framework */; };
+		E21AB822BA5CA8E4C40E6582A2AC5CA1 /* OCTConsoleDestination.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CA9225FDCFEE9001A05775AEB6A6A1 /* OCTConsoleDestination.m */; };
+		E6C11289F983F0C864A9CF3F240E46B3 /* OCTBlockPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 096690E13B426315233D202E4FFE8AE1 /* OCTBlockPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E815AC5CAD8B933A1EDF7533A3AA8FEB /* OCTCSSInjectionPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7D658014A6B501E3263AE91B69A8CC /* OCTCSSInjectionPlugin.m */; };
+		E9BD2F728793A6F44632E55161A08F1A /* OCTCSSInjectionPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = F9EB80FA83B39850952EBE7888AAAC47 /* OCTCSSInjectionPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAF95114653B11A2B84AFF14255177CE /* log_plugin.js in Resources */ = {isa = PBXBuildFile; fileRef = FF3CB5074208B86410E2A4C90101ACC7 /* log_plugin.js */; };
+		F0C8F44C99C1C537F4A5785AB76E4168 /* block_plugin_with_callback_template.js in Resources */ = {isa = PBXBuildFile; fileRef = ACD0214FB790D477E6E7C9395F1A9A91 /* block_plugin_with_callback_template.js */; };
+		F4CDF3A7A0FB630D7A4189C997D4D868 /* OCTLogPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 639A4F41F2DD1C69A7E7299E1974B327 /* OCTLogPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBFA8DD8B79FB2C10193F68B1838E44F /* OCTBaseDestination.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FFDCF79D8E7BA05594356F26BAA2C4 /* OCTBaseDestination.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8138C65949E3EA4931306FA9B8DCFB89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C3A9C4079728F1C77ED36297B143934;
+			remoteInfo = OCTWebViewBridge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		009D7409CDA105FE82C8C99AD820F5A5 /* OCTBlockPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCTBlockPlugin.m; path = OCTWebViewBridge/Classes/BlockPlugin/OCTBlockPlugin.m; sourceTree = "<group>"; };
+		01192B43CAA04D60A585C0137F01856F /* OCTLogPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCTLogPlugin.m; path = OCTWebViewBridge/Classes/LogPlugin/OCTLogPlugin.m; sourceTree = "<group>"; };
+		096690E13B426315233D202E4FFE8AE1 /* OCTBlockPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCTBlockPlugin.h; path = OCTWebViewBridge/Classes/BlockPlugin/OCTBlockPlugin.h; sourceTree = "<group>"; };
+		0C4B103127BEDDDF560FF3A149160443 /* OCTLogLevel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCTLogLevel.h; path = OCTWebViewBridge/Classes/Logger/OCTLogLevel.h; sourceTree = "<group>"; };
+		0D6A85A4253B729F397578DFF3FCC479 /* OCTLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCTLogger.m; path = OCTWebViewBridge/Classes/Logger/OCTLogger.m; sourceTree = "<group>"; };
+		101BADA1BB8A592F3C4942E1B819DAD7 /* Pods-JSWebViewBridge-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSWebViewBridge-frameworks.sh"; sourceTree = "<group>"; };
+		149FD8CE0F70466051335F30EB66A40D /* OCTWebViewBridge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OCTWebViewBridge.modulemap; sourceTree = "<group>"; };
+		155E1C17E64AE497C46EF374D41DB366 /* OCTBaseDestination.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCTBaseDestination.h; path = OCTWebViewBridge/Classes/Logger/OCTBaseDestination.h; sourceTree = "<group>"; };
+		18CA773234221AD26E59FAECA5D697F3 /* OCTWebViewBridge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCTWebViewBridge-umbrella.h"; sourceTree = "<group>"; };
+		1EACDED7C4080466B70B692DE670EB47 /* OCTWebViewBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCTWebViewBridge.h; path = OCTWebViewBridge/Classes/OCTWebViewBridge.h; sourceTree = "<group>"; };
+		2E9998DF27B7AD837DEFE6AA4D514BB5 /* block_plugin_template.js */ = {isa = PBXFileReference; includeInIndex = 1; name = block_plugin_template.js; path = OCTWebViewBridge/Assets/block_plugin_template.js; sourceTree = "<group>"; };
+		32FFDCF79D8E7BA05594356F26BAA2C4 /* OCTBaseDestination.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCTBaseDestination.m; path = OCTWebViewBridge/Classes/Logger/OCTBaseDestination.m; sourceTree = "<group>"; };
+		3481FB01E6D06458A6CF951801ABD00E /* OCTConsoleDestination.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCTConsoleDestination.h; path = OCTWebViewBridge/Classes/Logger/OCTConsoleDestination.h; sourceTree = "<group>"; };
+		36C43CF0B17BAD2082D6F09638F6A9AA /* Pods-JSWebViewBridge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JSWebViewBridge.modulemap"; sourceTree = "<group>"; };
+		3837DF82B01995BB16D56605D97C5914 /* OCTWebViewPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCTWebViewPlugin.h; path = OCTWebViewBridge/Classes/Core/OCTWebViewPlugin.h; sourceTree = "<group>"; };
+		3E578D5A6E237D1513B18072DF5B9B2A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		48BB2DE8749C521E1A3E46E3027DD72F /* Pods-JSWebViewBridge-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSWebViewBridge-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4A3A6B8DD53E8A5253EB5844E904099C /* Pods-JSWebViewBridge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSWebViewBridge-umbrella.h"; sourceTree = "<group>"; };
+		4F4F2AADCF06AA76D04D50D3C1AE8B82 /* OCTFileLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCTFileLogger.h; path = OCTWebViewBridge/Classes/Logger/OCTFileLogger.h; sourceTree = "<group>"; };
+		53D8EAB9B11790A7820D82B631C36676 /* OCTWebViewPluginInjector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCTWebViewPluginInjector.m; path = OCTWebViewBridge/Classes/Core/OCTWebViewPluginInjector.m; sourceTree = "<group>"; };
+		55E69180A5B09779A30661B01FE18353 /* OCTConsoleLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCTConsoleLogger.m; path = OCTWebViewBridge/Classes/Logger/OCTConsoleLogger.m; sourceTree = "<group>"; };
+		5C3263D3A568602E6A4496FF3CD715FD /* css_injector.js */ = {isa = PBXFileReference; includeInIndex = 1; name = css_injector.js; path = OCTWebViewBridge/Assets/css_injector.js; sourceTree = "<group>"; };
+		639A4F41F2DD1C69A7E7299E1974B327 /* OCTLogPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCTLogPlugin.h; path = OCTWebViewBridge/Classes/LogPlugin/OCTLogPlugin.h; sourceTree = "<group>"; };
+		64E2DE219AC3778655BE81889B02B26E /* OCTLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCTLogger.h; path = OCTWebViewBridge/Classes/Logger/OCTLogger.h; sourceTree = "<group>"; };
+		687E832480E506CDBD9B026661FB85F8 /* OCTConsoleLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCTConsoleLogger.h; path = OCTWebViewBridge/Classes/Logger/OCTConsoleLogger.h; sourceTree = "<group>"; };
+		6ADC398C5DD956567CC7FAFD2C901AB9 /* OCTFileLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCTFileLogger.m; path = OCTWebViewBridge/Classes/Logger/OCTFileLogger.m; sourceTree = "<group>"; };
+		71151ABA06854BB17A6D661A4D651083 /* OCTWebViewBridge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OCTWebViewBridge-dummy.m"; sourceTree = "<group>"; };
+		71CA9225FDCFEE9001A05775AEB6A6A1 /* OCTConsoleDestination.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCTConsoleDestination.m; path = OCTWebViewBridge/Classes/Logger/OCTConsoleDestination.m; sourceTree = "<group>"; };
+		75F40F19A9AE312CD88F700630630AF4 /* night.js */ = {isa = PBXFileReference; includeInIndex = 1; name = night.js; path = OCTWebViewBridge/Assets/night.js; sourceTree = "<group>"; };
+		7F63207EAA7DBC43234AD7C3CDC7C1CD /* Pods-JSWebViewBridge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSWebViewBridge.debug.xcconfig"; sourceTree = "<group>"; };
+		8A6815CE5273DA8E60F65EFF612642BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8D991151AE52D193FA797C93B60FE114 /* Pods_JSWebViewBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSWebViewBridge.framework; path = "Pods-JSWebViewBridge.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2BA877CC49B58670B10283FA657EF24 /* Pods-JSWebViewBridge-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSWebViewBridge-acknowledgements.plist"; sourceTree = "<group>"; };
+		A2C0F1C8CC9C3BFC7C7AE122BF4A6FBB /* OCTWebViewBridge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCTWebViewBridge-prefix.pch"; sourceTree = "<group>"; };
+		A93A82CE9C3E7FF82DC1F8717195BB38 /* Pods-JSWebViewBridge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSWebViewBridge-Info.plist"; sourceTree = "<group>"; };
+		ACD0214FB790D477E6E7C9395F1A9A91 /* block_plugin_with_callback_template.js */ = {isa = PBXFileReference; includeInIndex = 1; name = block_plugin_with_callback_template.js; path = OCTWebViewBridge/Assets/block_plugin_with_callback_template.js; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B421A27A20E7E7FE5FF01C015F1653FB /* Pods-JSWebViewBridge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSWebViewBridge.release.xcconfig"; sourceTree = "<group>"; };
+		B8B20F98D0F5DDBC4986D3BDB508B32F /* OCTWebViewBridge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OCTWebViewBridge-Info.plist"; sourceTree = "<group>"; };
+		B9BAFCAB7D317DD78DE3E1A5F57BF503 /* message.js */ = {isa = PBXFileReference; includeInIndex = 1; name = message.js; path = OCTWebViewBridge/Assets/message.js; sourceTree = "<group>"; };
+		C38DCF1D08D992E6C708B223B6E9B0E8 /* OCTWebViewBridge.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCTWebViewBridge.xcconfig; sourceTree = "<group>"; };
+		C8E85C5C266A4D8AA0556360EBBD54B2 /* OCTWebViewPluginInjector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCTWebViewPluginInjector.h; path = OCTWebViewBridge/Classes/Core/OCTWebViewPluginInjector.h; sourceTree = "<group>"; };
+		D0877C6F085B1C0DF08278A585E30B43 /* OCTWebViewBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OCTWebViewBridge.framework; path = OCTWebViewBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D44F93F8034A7D1B0FA0EB4EAF8A268B /* WKWebView+NightMode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WKWebView+NightMode.m"; path = "OCTWebViewBridge/Classes/NightMode/WKWebView+NightMode.m"; sourceTree = "<group>"; };
+		EA7D658014A6B501E3263AE91B69A8CC /* OCTCSSInjectionPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCTCSSInjectionPlugin.m; path = OCTWebViewBridge/Classes/CSSInjectorPlugin/OCTCSSInjectionPlugin.m; sourceTree = "<group>"; };
+		F04201CFF293D45AF1CD85D982F9846C /* WKWebView+NightMode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+NightMode.h"; path = "OCTWebViewBridge/Classes/NightMode/WKWebView+NightMode.h"; sourceTree = "<group>"; };
+		F6C90DF379FD6478691667CB6C45C659 /* night.css */ = {isa = PBXFileReference; includeInIndex = 1; name = night.css; path = OCTWebViewBridge/Assets/night.css; sourceTree = "<group>"; };
+		F9EB80FA83B39850952EBE7888AAAC47 /* OCTCSSInjectionPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCTCSSInjectionPlugin.h; path = OCTWebViewBridge/Classes/CSSInjectorPlugin/OCTCSSInjectionPlugin.h; sourceTree = "<group>"; };
+		FA94755D5AB2AA7DAEF6323216C91D8B /* Pods-JSWebViewBridge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSWebViewBridge-dummy.m"; sourceTree = "<group>"; };
+		FF3CB5074208B86410E2A4C90101ACC7 /* log_plugin.js */ = {isa = PBXFileReference; includeInIndex = 1; name = log_plugin.js; path = OCTWebViewBridge/Assets/log_plugin.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		048A884C68479B1D0CBD210710EC0F35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5BBD98D2253693252857C0E54C0AF9 /* Foundation.framework in Frameworks */,
+				A1E945095DF7C822107D6749D1EFCFF6 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FF4175934BB3CFDCD734FD6719399FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07F2A0CAFDC34201A80CB65335D97BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A8BAF3CC4256868FCF3453F3992E153 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7EA0AF3D72287E2BF025066D45C5F4A /* OCTWebViewBridge */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3B588D15CCE4A3875423780E407979FE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFF5045ABD2BFBC9A5554E9031573F9C /* Pods-JSWebViewBridge */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7EEC997E451D79E29C96E0B48F6BFD1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				1A8BAF3CC4256868FCF3453F3992E153 /* Pods */,
+				C85903A63FE6BA013BBDD4BCAE02536C /* Products */,
+				3B588D15CCE4A3875423780E407979FE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		832B0AB96C4EC657CA11355433900D58 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2E9998DF27B7AD837DEFE6AA4D514BB5 /* block_plugin_template.js */,
+				ACD0214FB790D477E6E7C9395F1A9A91 /* block_plugin_with_callback_template.js */,
+				5C3263D3A568602E6A4496FF3CD715FD /* css_injector.js */,
+				FF3CB5074208B86410E2A4C90101ACC7 /* log_plugin.js */,
+				B9BAFCAB7D317DD78DE3E1A5F57BF503 /* message.js */,
+				F6C90DF379FD6478691667CB6C45C659 /* night.css */,
+				75F40F19A9AE312CD88F700630630AF4 /* night.js */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A7EA0AF3D72287E2BF025066D45C5F4A /* OCTWebViewBridge */ = {
+			isa = PBXGroup;
+			children = (
+				155E1C17E64AE497C46EF374D41DB366 /* OCTBaseDestination.h */,
+				32FFDCF79D8E7BA05594356F26BAA2C4 /* OCTBaseDestination.m */,
+				096690E13B426315233D202E4FFE8AE1 /* OCTBlockPlugin.h */,
+				009D7409CDA105FE82C8C99AD820F5A5 /* OCTBlockPlugin.m */,
+				3481FB01E6D06458A6CF951801ABD00E /* OCTConsoleDestination.h */,
+				71CA9225FDCFEE9001A05775AEB6A6A1 /* OCTConsoleDestination.m */,
+				687E832480E506CDBD9B026661FB85F8 /* OCTConsoleLogger.h */,
+				55E69180A5B09779A30661B01FE18353 /* OCTConsoleLogger.m */,
+				F9EB80FA83B39850952EBE7888AAAC47 /* OCTCSSInjectionPlugin.h */,
+				EA7D658014A6B501E3263AE91B69A8CC /* OCTCSSInjectionPlugin.m */,
+				4F4F2AADCF06AA76D04D50D3C1AE8B82 /* OCTFileLogger.h */,
+				6ADC398C5DD956567CC7FAFD2C901AB9 /* OCTFileLogger.m */,
+				64E2DE219AC3778655BE81889B02B26E /* OCTLogger.h */,
+				0D6A85A4253B729F397578DFF3FCC479 /* OCTLogger.m */,
+				0C4B103127BEDDDF560FF3A149160443 /* OCTLogLevel.h */,
+				639A4F41F2DD1C69A7E7299E1974B327 /* OCTLogPlugin.h */,
+				01192B43CAA04D60A585C0137F01856F /* OCTLogPlugin.m */,
+				1EACDED7C4080466B70B692DE670EB47 /* OCTWebViewBridge.h */,
+				3837DF82B01995BB16D56605D97C5914 /* OCTWebViewPlugin.h */,
+				C8E85C5C266A4D8AA0556360EBBD54B2 /* OCTWebViewPluginInjector.h */,
+				53D8EAB9B11790A7820D82B631C36676 /* OCTWebViewPluginInjector.m */,
+				F04201CFF293D45AF1CD85D982F9846C /* WKWebView+NightMode.h */,
+				D44F93F8034A7D1B0FA0EB4EAF8A268B /* WKWebView+NightMode.m */,
+				832B0AB96C4EC657CA11355433900D58 /* Resources */,
+				D42601FFEFCC5F082A936034F5DD98F8 /* Support Files */,
+			);
+			name = OCTWebViewBridge;
+			path = OCTWebViewBridge;
+			sourceTree = "<group>";
+		};
+		AFF5045ABD2BFBC9A5554E9031573F9C /* Pods-JSWebViewBridge */ = {
+			isa = PBXGroup;
+			children = (
+				36C43CF0B17BAD2082D6F09638F6A9AA /* Pods-JSWebViewBridge.modulemap */,
+				48BB2DE8749C521E1A3E46E3027DD72F /* Pods-JSWebViewBridge-acknowledgements.markdown */,
+				A2BA877CC49B58670B10283FA657EF24 /* Pods-JSWebViewBridge-acknowledgements.plist */,
+				FA94755D5AB2AA7DAEF6323216C91D8B /* Pods-JSWebViewBridge-dummy.m */,
+				101BADA1BB8A592F3C4942E1B819DAD7 /* Pods-JSWebViewBridge-frameworks.sh */,
+				A93A82CE9C3E7FF82DC1F8717195BB38 /* Pods-JSWebViewBridge-Info.plist */,
+				4A3A6B8DD53E8A5253EB5844E904099C /* Pods-JSWebViewBridge-umbrella.h */,
+				7F63207EAA7DBC43234AD7C3CDC7C1CD /* Pods-JSWebViewBridge.debug.xcconfig */,
+				B421A27A20E7E7FE5FF01C015F1653FB /* Pods-JSWebViewBridge.release.xcconfig */,
+			);
+			name = "Pods-JSWebViewBridge";
+			path = "Target Support Files/Pods-JSWebViewBridge";
+			sourceTree = "<group>";
+		};
+		C85903A63FE6BA013BBDD4BCAE02536C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0877C6F085B1C0DF08278A585E30B43 /* OCTWebViewBridge.framework */,
+				8D991151AE52D193FA797C93B60FE114 /* Pods_JSWebViewBridge.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D42601FFEFCC5F082A936034F5DD98F8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				149FD8CE0F70466051335F30EB66A40D /* OCTWebViewBridge.modulemap */,
+				C38DCF1D08D992E6C708B223B6E9B0E8 /* OCTWebViewBridge.xcconfig */,
+				71151ABA06854BB17A6D661A4D651083 /* OCTWebViewBridge-dummy.m */,
+				B8B20F98D0F5DDBC4986D3BDB508B32F /* OCTWebViewBridge-Info.plist */,
+				A2C0F1C8CC9C3BFC7C7AE122BF4A6FBB /* OCTWebViewBridge-prefix.pch */,
+				18CA773234221AD26E59FAECA5D697F3 /* OCTWebViewBridge-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OCTWebViewBridge";
+			sourceTree = "<group>";
+		};
+		F7EEC997E451D79E29C96E0B48F6BFD1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8A6815CE5273DA8E60F65EFF612642BA /* Foundation.framework */,
+				3E578D5A6E237D1513B18072DF5B9B2A /* WebKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		35049F57D06E6CC01A5363F6D269E585 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE08AD261370DA7104EC415005160A42 /* Pods-JSWebViewBridge-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BF87D3BED27F4B0E60AD864322DAC8C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6381257A81BC2A793F8FCE62B61E6672 /* OCTBaseDestination.h in Headers */,
+				E6C11289F983F0C864A9CF3F240E46B3 /* OCTBlockPlugin.h in Headers */,
+				57621F9CD7E775E278AFA537B0180BAA /* OCTConsoleDestination.h in Headers */,
+				A081889CD48329CCF020C4CA03CE85B0 /* OCTConsoleLogger.h in Headers */,
+				E9BD2F728793A6F44632E55161A08F1A /* OCTCSSInjectionPlugin.h in Headers */,
+				5B1886E9967B3762FA699F0834638028 /* OCTFileLogger.h in Headers */,
+				0B9FA294FEA6E0BE3A2081907D07896C /* OCTLogger.h in Headers */,
+				75E54A3364DA5563FA94EA0B7E1D396B /* OCTLogLevel.h in Headers */,
+				F4CDF3A7A0FB630D7A4189C997D4D868 /* OCTLogPlugin.h in Headers */,
+				A53594CC24A34C8439019BBE3E0A4994 /* OCTWebViewBridge-umbrella.h in Headers */,
+				1DEDC641C9F6B882E277AAC02CA91C0D /* OCTWebViewBridge.h in Headers */,
+				B2CAA3CF2B55FFE6FDA93FFD86727236 /* OCTWebViewPlugin.h in Headers */,
+				C90DAE9191A109EA2D7ED6039A709E0F /* OCTWebViewPluginInjector.h in Headers */,
+				644CC333606F21DD760642D97D58EB2F /* WKWebView+NightMode.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		74B67A3F7B88038DE495D18B05C7B832 /* Pods-JSWebViewBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89B2312860B160B580D3213227ED4474 /* Build configuration list for PBXNativeTarget "Pods-JSWebViewBridge" */;
+			buildPhases = (
+				35049F57D06E6CC01A5363F6D269E585 /* Headers */,
+				1BF72719DC70A6779013987320DB28F4 /* Sources */,
+				4FF4175934BB3CFDCD734FD6719399FC /* Frameworks */,
+				C90D8B678F7E6D6D6F78627D47FFFE6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				171D6859B25F87B7E4B0B84711161053 /* PBXTargetDependency */,
+			);
+			name = "Pods-JSWebViewBridge";
+			productName = "Pods-JSWebViewBridge";
+			productReference = 8D991151AE52D193FA797C93B60FE114 /* Pods_JSWebViewBridge.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9C3A9C4079728F1C77ED36297B143934 /* OCTWebViewBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5AD7BBEC1B11F33B5641AA17B6BA370 /* Build configuration list for PBXNativeTarget "OCTWebViewBridge" */;
+			buildPhases = (
+				3BF87D3BED27F4B0E60AD864322DAC8C /* Headers */,
+				519713F19F3768C3033B30794D18709B /* Sources */,
+				048A884C68479B1D0CBD210710EC0F35 /* Frameworks */,
+				48E27D18B160CDBB47824CA37A43D5D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCTWebViewBridge;
+			productName = OCTWebViewBridge;
+			productReference = D0877C6F085B1C0DF08278A585E30B43 /* OCTWebViewBridge.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C85903A63FE6BA013BBDD4BCAE02536C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C3A9C4079728F1C77ED36297B143934 /* OCTWebViewBridge */,
+				74B67A3F7B88038DE495D18B05C7B832 /* Pods-JSWebViewBridge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48E27D18B160CDBB47824CA37A43D5D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670C3E2AA23DEAD51C4A06F7717496BF /* block_plugin_template.js in Resources */,
+				F0C8F44C99C1C537F4A5785AB76E4168 /* block_plugin_with_callback_template.js in Resources */,
+				812BE68040F31A336D5C62965EA265CB /* css_injector.js in Resources */,
+				EAF95114653B11A2B84AFF14255177CE /* log_plugin.js in Resources */,
+				32F2CF7D5FD708A9197B9A43FAC9AA45 /* message.js in Resources */,
+				6D1AE9BC362DAB78EDABB3B1B3F3DFC1 /* night.css in Resources */,
+				D19A21210012E56462684E03422D545F /* night.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C90D8B678F7E6D6D6F78627D47FFFE6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BF72719DC70A6779013987320DB28F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D835EBC88D4CAA4DACCBB007D5A3C1 /* Pods-JSWebViewBridge-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		519713F19F3768C3033B30794D18709B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBFA8DD8B79FB2C10193F68B1838E44F /* OCTBaseDestination.m in Sources */,
+				1C7147CF1B2DE7CB5BCA94CCEC4E98C1 /* OCTBlockPlugin.m in Sources */,
+				E21AB822BA5CA8E4C40E6582A2AC5CA1 /* OCTConsoleDestination.m in Sources */,
+				1A03C225AD88A9FB64A4970C191C9CDF /* OCTConsoleLogger.m in Sources */,
+				E815AC5CAD8B933A1EDF7533A3AA8FEB /* OCTCSSInjectionPlugin.m in Sources */,
+				6989BFA034B8193ABFA320DC1D448CA8 /* OCTFileLogger.m in Sources */,
+				A9B41C69B6CCEC0274CE1DB33C0572C8 /* OCTLogger.m in Sources */,
+				1F1667338A6B5E068DAD3EC9CC82F49F /* OCTLogPlugin.m in Sources */,
+				23BE2E64DFA5E175793A23934B72ED73 /* OCTWebViewBridge-dummy.m in Sources */,
+				165BD2B53DEFF2EFCE4505083E9C8CC9 /* OCTWebViewPluginInjector.m in Sources */,
+				6940FD8CCC0102CE0A0FE8D8022AC58B /* WKWebView+NightMode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		171D6859B25F87B7E4B0B84711161053 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OCTWebViewBridge;
+			target = 9C3A9C4079728F1C77ED36297B143934 /* OCTWebViewBridge */;
+			targetProxy = 8138C65949E3EA4931306FA9B8DCFB89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11D027BD8219E71225D197BACF78F7C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		17624198C1D185D5D950F3474442743D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C38DCF1D08D992E6C708B223B6E9B0E8 /* OCTWebViewBridge.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OCTWebViewBridge/OCTWebViewBridge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OCTWebViewBridge/OCTWebViewBridge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/OCTWebViewBridge/OCTWebViewBridge.modulemap";
+				PRODUCT_MODULE_NAME = OCTWebViewBridge;
+				PRODUCT_NAME = OCTWebViewBridge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3A3FBEA571CF79EE781F4FEAA6DDA8B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C38DCF1D08D992E6C708B223B6E9B0E8 /* OCTWebViewBridge.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OCTWebViewBridge/OCTWebViewBridge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OCTWebViewBridge/OCTWebViewBridge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/OCTWebViewBridge/OCTWebViewBridge.modulemap";
+				PRODUCT_MODULE_NAME = OCTWebViewBridge;
+				PRODUCT_NAME = OCTWebViewBridge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8FB57296A2B59949708C2B492C4646D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A98226A8E1E50D86AE175A20F8D5EBE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F63207EAA7DBC43234AD7C3CDC7C1CD /* Pods-JSWebViewBridge.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSWebViewBridge/Pods-JSWebViewBridge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSWebViewBridge/Pods-JSWebViewBridge.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F71A73EC080B77E043E6C4A2D4E65C11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B421A27A20E7E7FE5FF01C015F1653FB /* Pods-JSWebViewBridge.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSWebViewBridge/Pods-JSWebViewBridge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSWebViewBridge/Pods-JSWebViewBridge.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11D027BD8219E71225D197BACF78F7C1 /* Debug */,
+				8FB57296A2B59949708C2B492C4646D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89B2312860B160B580D3213227ED4474 /* Build configuration list for PBXNativeTarget "Pods-JSWebViewBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98226A8E1E50D86AE175A20F8D5EBE8 /* Debug */,
+				F71A73EC080B77E043E6C4A2D4E65C11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5AD7BBEC1B11F33B5641AA17B6BA370 /* Build configuration list for PBXNativeTarget "OCTWebViewBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A3FBEA571CF79EE781F4FEAA6DDA8B1 /* Debug */,
+				17624198C1D185D5D950F3474442743D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
