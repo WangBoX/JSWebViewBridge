@@ -6,6 +6,8 @@ platform :ios, '10.0'
 
 target 'JSWebViewBridge' do
   
-  pod 'OCTWebViewBridge', :path => '/Users/BlingX/Desktop/源码/JSWebViewBridge/JSWebViewBridge/OCTWebViewBridge'
+  
+  pod 'OCTWebViewBridge',  '~>1.2.0'
+
 
 end

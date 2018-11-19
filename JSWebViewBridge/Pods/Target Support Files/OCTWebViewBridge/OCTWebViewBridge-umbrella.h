@@ -10,18 +10,19 @@
 #endif
 #endif
 
+#import "OCTBlockPlugin.h"
+#import "OCTWebViewPlugin.h"
+#import "OCTWebViewPluginInjector.h"
+#import "OCTCSSInjectionPlugin.h"
 #import "OCTBaseDestination.h"
 #import "OCTConsoleDestination.h"
 #import "OCTConsoleLogger.h"
 #import "OCTFileLogger.h"
 #import "OCTLogger.h"
 #import "OCTLogLevel.h"
-#import "OCTBlockPlugin.h"
-#import "OCTCSSInjectionPlugin.h"
 #import "OCTLogPlugin.h"
+#import "WKWebView+NightMode.h"
 #import "OCTWebViewBridge.h"
-#import "OCTWebViewPlugin.h"
-#import "OCTWebViewPluginInjector.h"
 
 FOUNDATION_EXPORT double OCTWebViewBridgeVersionNumber;
 FOUNDATION_EXPORT const unsigned char OCTWebViewBridgeVersionString[];
