@@ -7,8 +7,8 @@ WKWebView Javascript Bridge
   GoodSeatPlugin.js
 
 3、WKWebView注入插入器
-    CCDGoodSeatPlugin *plugin = [[CCDGoodSeatPlugin alloc] init];
-    [[OCTWebViewPluginInjector injectorForWebView:self.webView] injectPlugin:plugin];
+   // CCDGoodSeatPlugin *plugin = [[CCDGoodSeatPlugin alloc] init];
+   // [[OCTWebViewPluginInjector injectorForWebView:self.webView] injectPlugin:plugin];
 
 4、在CCDGoodSeatPlugin.m内部接口处写实现的业务
 
@@ -17,6 +17,7 @@ eg：
 
 
     //成功type：0，cancel：1， fail：2
+```
 - (void)scanGetQrCode:(id)data CallBack:(OCTResponseCallback)callback{
     NSLog(@"======== 扫一扫todo =======");
 
@@ -46,3 +47,4 @@ eg：
                @"data": @""
                });
 }
+```
