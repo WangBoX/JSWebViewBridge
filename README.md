@@ -6,7 +6,12 @@ WKWebView Javascript Bridge
 2、引入文件：CCDGoodSeatPlugin.h/.m/
   GoodSeatPlugin.js
 
-3、在CCDGoodSeatPlugin.m内部接口处写实现的业务
+3、WKWebView注入插入器
+    CCDGoodSeatPlugin *plugin = [[CCDGoodSeatPlugin alloc] init];
+    [[OCTWebViewPluginInjector injectorForWebView:self.webView] injectPlugin:plugin];
+
+4、在CCDGoodSeatPlugin.m内部接口处写实现的业务
+
 
 eg：
 
