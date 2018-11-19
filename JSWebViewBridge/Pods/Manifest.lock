@@ -1,16 +1,16 @@
 PODS:
-  - OCTWebViewBridge (1.2.0)
+  - OCTWebViewBridge (1.0.7)
 
 DEPENDENCIES:
-  - OCTWebViewBridge (~> 1.2.0)
+  - "OCTWebViewBridge (from `/Users/BlingX/Desktop/源码/JSWebViewBridge/JSWebViewBridge/OCTWebViewBridge`)"
 
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - OCTWebViewBridge
+EXTERNAL SOURCES:
+  OCTWebViewBridge:
+    :path: "/Users/BlingX/Desktop/源码/JSWebViewBridge/JSWebViewBridge/OCTWebViewBridge"
 
 SPEC CHECKSUMS:
-  OCTWebViewBridge: e46e9b1aa21e592bd4a643bce41f7e9ebe4c7510
+  OCTWebViewBridge: 187e1311f571ea01b87d38e5fbd8bed246642819
 
-PODFILE CHECKSUM: cac88a49bdac394547d7a8e2da138f024b666825
+PODFILE CHECKSUM: 6e3764cc1ff06a2ed025fad6845fe8a3e686c937
 
 COCOAPODS: 1.6.0.beta.2
